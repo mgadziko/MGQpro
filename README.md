@@ -1,2 +1,2 @@
 # MGQpro
-Dual 31-band EQ for macOS
+Dual 31-Band EQ for macOS
