@@ -371,10 +371,10 @@ private struct SpectrumLEDColumn: View {
     }
 
     private func color(for threshold: Float) -> Color {
-        if threshold >= 9 {
+        if threshold > 0 {
             return Color(red: 1.0, green: 0.12, blue: 0.08)
         }
-        if threshold >= 6 {
+        if threshold >= -24 {
             return Color(red: 1.0, green: 0.88, blue: 0.05)
         }
         return Color(red: 0.1, green: 1.0, blue: 0.16)
